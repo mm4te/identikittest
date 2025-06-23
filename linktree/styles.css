@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url("/linktree/img/fondo-colorido-borroso-vivo_58702-2655.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.carrera{
+    font-weight: bold;
+}
+li {
+    list-style: none;
+}
+.container {
+    margin-top: 40px;
+    /* background-color: white; */
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 80vh;
+    width: 40%;
+}
+.encabezado {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.enlaces {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+    
+}
+/* .enlace{
+
+} */
+.contenedor_preguntas {
+    margin: 0 100px;
+    height: 200px;
+}
+
+table {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    /* margin-top: 20px; */
+    border-spacing: 30px 30px;
+}
+.preguntas_link {
+    display: block;
+    padding: 20px 0;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+.preguntas_link:hover {
+    background-color: #9c9e9f;
+}
+.img_link {
+    position: absolute;
+    top: 42.7%;
+    left: 39%;
+    border-radius: 30px;
+}
