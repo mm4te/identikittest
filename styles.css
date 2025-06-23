@@ -1,7 +1,7 @@
 body {
     display: flex;
     justify-content: center;
-    background-image: url("../linktree/img/fondo-colorido-borroso-vivo_58702-2655.avif");
+    background-image: url("/linktree/img/fondo-colorido-borroso-vivo_58702-2655.avif");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
