@@ -1,155 +1,75 @@
-* {
-    font-family: Arial, sans-serif;
-    padding: 0;
-    margin: 0;
-}
-/* html {
-    scroll-behavior: smooth;
-  } */
-body{
-    background-image: url(https://sf.ezoiccdn.com/ezoimgfmt/www.roc21.com/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-8.jpg?ezimgfmt=rs:372x186/rscb1/ng:webp/ngcb1);
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url("../linktree/img/fondo-colorido-borroso-vivo_58702-2655.avif");
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+    font-family: "Poppins", sans-serif;
 }
-li{
+a {
+    text-decoration: none;
+    color: white;
+}
+.carrera{
+    font-weight: bold;
+}
+li {
     list-style: none;
 }
-a{
-    text-decoration: none;
-    color: white;
-}
-.nav{
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 10px;
-    background-color: rgb(43, 43, 43);
-    padding: 30px;
-    border-radius: 20px;
-}
-.nav-list{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.juego{
-    background-color: yellow;
-    padding: 10px;
-    border-radius: 5px;
-    color: black;
-}
-.nav_item a:hover{
-    color:rgb(240, 240, 0)
-}
-.juego:hover{
-    background-color: rgb(240, 240, 0);
-    cursor: pointer;
-    color: black !important;    
-}
-.active{
-    border-bottom: 2px solid rgb(240, 240, 0); 
-}
-.presentacion{
-    align-content: center;
-    margin: auto;
-    width: 30%;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 70px;
-    color: white;
-    background-color: rgb(43, 43, 43);
-}
-main{
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.carta{
-    width: 20%;
-    background-color: #f0f0f0;
-    padding: 30px;
-    border-radius: 15px;
-}
-.linea{
-    width: 100%;
-    height: 2px;
-    background-color: black;
-    margin: 10px 0;
-}
-.ul-carta{
-    display: flex;
-    align-items: center;
-}
-.carta_nombre{
-    margin-left: 30px;
-}
-.descripcion{
-    margin-top: 10px;
-    font-size: 14px;
-    margin-bottom: 30px;
-}
-.carta_img{
-    border-radius: 20%;
-}
-.boton {
-    text-align: center;
-}
-
-.escuchar {
-    background-color: rgb(43, 43, 43);
-    padding: 10px;
-    border-radius: 5px;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px; /* espacio entre el texto y el logo */
-    text-decoration: none;
-    color: white;
-}
-.proyectos{
-    margin-top: 100px;
-}
-section{
-    min-height: 70vh;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+.container {
     margin-top: 40px;
+    /* background-color: white; */
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 80vh;
+    width: 40%;
 }
-.container a {
-    display: block;
-    position: relative;
-    text-decoration: none;
-    color: white;
+.encabezado {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.container .centered {
-    position: absolute;
-    top: 45%;
-    left: 45%;
-    transform: translate(-40%, -40%);
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 10px 20px;
-    border-radius: 10px;
+.enlaces {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+    
 }
-.centered:hover{
-    /* yellow rgba 0.6 */
-    background-color: rgba(240, 240, 0, 0.6);
-    color: black;
-    transition: all 0.3s ease-in-out;
+/* .enlace{
+
+} */
+.contenedor_preguntas {
+    margin: 0 100px;
+    height: 200px;
 }
-footer{
-    width: 97.34%;
-    margin: 0 auto;
-    margin-top: 50px;
-    padding: 20px;
-    background-color: rgb(43, 43, 43);
+
+table {
+    width: 70%;
     text-align: center;
-    color: white;
+    margin: auto;
+    /* margin-top: 20px; */
+    border-spacing: 30px 30px;
+}
+.preguntas_link {
+    display: block;
+    padding: 20px 0;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+.preguntas_link:hover {
+    background-color: #9c9e9f;
+}
+.img_link {
+    position: absolute;
+    top: 42.7%;
+    left: 39%;
+    border-radius: 30px;
 }
