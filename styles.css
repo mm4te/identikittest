@@ -28,6 +28,7 @@ li {
     width: 40%;
 }
 .encabezado {
+    margin-top:40px;
     align-items: center;
     justify-content: center;
     text-align: center;

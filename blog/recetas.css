@@ -62,3 +62,23 @@ body {
     border-radius: 6px;
     margin-top: 25px;
   }
+.exit {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.exit a {
+  display: inline-block;
+  background-color: #8b4a2a;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+.exit a:hover {
+  background-color: #6b3e26;
+}
