@@ -6,6 +6,7 @@
   <title>Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/Captura de pantalla 2025-07-07 110157.png" type="image/x-icon">
 </head>
 
 <body>
@@ -27,6 +28,10 @@
           <span>Recetas</span> de Cocina
         </h1>
         <p>todas las recetas de cocina a tu alcance</p>
+        <form action="#" method="GET">
+          <input type="text" class="search-input" placeholder="Buscar recetas...">
+          <button type="submit" class="search-btn"><i class="fas fa-search"></i></button>
+        </form>
       </div>
     </div>
   </header>
@@ -44,7 +49,7 @@
         <div class="design-item">
           <a href="../blog/receta-brownies.html">
             <div class="design-img">
-              <img src="../blog/images/Brownie-de-Chocolate-500x500.jpg" alt="">
+              <img class="img" src="../blog/images/Brownie-de-Chocolate-500x500.jpg" alt="">
             </div>
           </a>
           <div class="design-title">
@@ -55,7 +60,7 @@
         <div class="design-item">
           <a href="../blog/receta-rolls-de-canela.html">
             <div class="design-img">
-              <img src="../blog/images/cinnamon-rolls-rollos-canela-3-1024x1024.jpg" alt="">
+              <img class="img" src="../blog/images/cinnamon-rolls-rollos-canela-3-1024x1024.jpg" alt="">
             </div>
           </a>
           <div class="design-title">
@@ -66,7 +71,7 @@
         <div class="design-item">
           <a href="../blog/receta-cookies.html">
             <div class="design-img">
-              <img src="../blog/images/cookie-recipes-500x500.jpg" alt="">
+              <img class="img" src="../blog/images/cookie-recipes-500x500.jpg" alt="">
             </div>
           </a>
           <div class="design-title">
@@ -76,7 +81,7 @@
         <div class="design-item">
           <a href="../blog/receta-rogel.html">
             <div class="design-img">
-              <img src="../blog/images/rogel.jpg" alt="">
+              <img class="img" src="../blog/images/rogel.jpg" alt="">
             </div>
           </a>
           <div class="design-title">
@@ -86,7 +91,7 @@
         <div class="design-item">
           <a href="../blog/receta-red-velvet.html">
             <div class="design-img">
-              <img src="../blog/images/red-velvet.jpg" alt="">
+              <img class="img" src="../blog/images/red-velvet.jpg" alt="">
             </div>
           </a>
           <div class="design-title">
@@ -96,7 +101,7 @@
         <div class="design-item">
           <a href="../blog/receta-medialunas.html">
             <div class="design-img">
-              <img src="../blog/images/medialunas.jpg" alt="">
+              <img class="img" src="../blog/images/medialunas.jpg" alt="">
             </div>
           </a>
           <div class="design-title">
@@ -115,7 +120,7 @@
         <div class="design-item">
           <a href="../blog/receta-wok-carne.html">
             <div class="design-img">
-              <img src="../blog/images/wok-carne.jpg" alt="">
+              <img class="img" src="../blog/images/wok-carne.jpg" alt="">
             </div>
           </a>
           <div class="design-title">
@@ -126,7 +131,7 @@
         <div class="design-item">
           <a href="../blog/receta-pizza.html">
             <div class="design-img">
-              <img src="../blog/images/pizza.png" alt="">
+              <img class="img" src="../blog/images/pizza.png" alt="">
             </div>
           </a>
           <div class="design-title">
@@ -137,7 +142,7 @@
         <div class="design-item">
           <a href="../blog/receta-risoto-de-tomate.html">
             <div class="design-img">
-              <img src="../blog/images/risoto-de-tomate.webp" alt="">
+              <img class="img" src="../blog/images/risoto-de-tomate.webp" alt="">
             </div>
           </a>
           <div class="design-title">
@@ -148,7 +153,7 @@
         <div class="design-item">
           <a href="../blog/receta-sushi.html">
             <div class="design-img">
-              <img src="../blog/images/sushi.webp" alt="">
+              <img class="img" src="../blog/images/sushi.webp" alt="">
             </div>
           </a>
           <div class="design-title">
@@ -159,7 +164,7 @@
         <div class="design-item">
           <a href="../blog/receta-milanesa.html">
             <div class="design-img">
-              <img src="../blog/images/milanesa.jpg" alt="">
+              <img class="img" src="../blog/images/milanesa.jpg" alt="">
             </div>
           </a>
           <div class="design-title">
@@ -170,7 +175,7 @@
         <div class="design-item">
           <a href="../blog/receta-empanadas.html">
             <div class="design-img">
-              <img src="../blog/images/empanadas.webp" alt="">
+              <img class="img" src="../blog/images/empanadas.webp" alt="">
             </div>
           </a>
           <div class="design-title">
@@ -184,7 +189,7 @@
     <div class="container">
       <div class="about-content">
         <div>
-          <img src="images/DC_202302_0005-999_BigMac_1564x1564-1_product-header-mobile.avif" alt="">
+          <img class="img" src="images/DC_202302_0005-999_BigMac_1564x1564-1_product-header-mobile.avif" alt="">
         </div>
         <div class="about-text">
           <div class="title">
@@ -201,16 +206,29 @@
       </div>
     </div>
   </section>
-
-  <footer>
-    <div class="social-links">
-      <a href="#"><i class="fab fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-pinterest"></i></a>
+  <footer class="footer">
+    <div class="footer-container container">
+      <div class="footer-brand">
+        <h3>Mi Blog</h3>
+        <p>Compartiendo recetas con pasión</p>
+      </div>
+      <div class="footer-links">
+        <a href="./sobre-mi.html">Sobre mí</a>
+        <a href="../identikit/index.html">Identikit</a>
+        <a href="#">Inicio</a>
+      </div>
+      <div class="social-links">
+        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" title="Pinterest"><i class="fab fa-pinterest"></i></a>
+      </div>
     </div>
-    <span>Blog de recetas</span>
+    <div class="footer-bottom">
+      <span>&copy; 2025 Mi Blog de Recetas. Todos los derechos reservados.</span>
+    </div>
   </footer>
+
 
 
 </body>
